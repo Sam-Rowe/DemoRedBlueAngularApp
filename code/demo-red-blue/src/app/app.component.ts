@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   <h1> Angular CI Example! </h1>
   <nav>
     <a routerLink="/red">RED</a>
+    </hr>
     <a routerLink="/blue">BLUE</a>
   </nav>
   <router-outlet></router-outlet>
