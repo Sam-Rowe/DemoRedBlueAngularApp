@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-root',
   template: `
@@ -8,6 +10,8 @@ import { Component } from '@angular/core';
     <a routerLink="/red">RED</a>
     <p>  </p>
     <a routerLink="/blue">BLUE</a>
+    <p> </P
+    <a routerLink="/auth">Auth</a>
   </nav>
   <router-outlet></router-outlet>
   `,
